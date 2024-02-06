@@ -47,6 +47,5 @@ export default suggestionSlice.reducer;
 
 // Task 17: Create a selector, called `selectSuggestion`, for the `suggestion` state variable and export it from the file
 export const selectSuggestion = (state) => state.suggestion.suggestion;
-
 export const selectLoading = (state) => state.suggestion.loading;
 export const selectError = (state) => state.suggestion.error;
